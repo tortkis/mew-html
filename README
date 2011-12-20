@@ -1,0 +1,11 @@
+Displays html email using an external web browser, showing the header,
+inline images and links to attachments.
+
+The attachments to an email are stored in a temporary directory, and
+the file names of attachments are preserved. (not changed to "mew*")
+
+The following mew functions are redefined.  mew-html.el must be loaded
+after mew is loaded.
+
+  mew-mime-markup-language-ext in mew-mime.el
+  mew-make-temp-name in mew-func.el
